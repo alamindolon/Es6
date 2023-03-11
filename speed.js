@@ -11,7 +11,7 @@ console.log(highest);
 
 
 // ... na dile numver a convert hobe na . so ai ta kaj korbe na.
-const highest = Math.max(number);
-console.log(highest);
+const highests = Math.max(number);
+console.log(highests);
 
 

@@ -12,5 +12,6 @@ console.log(domath(2,3,4));
 
 
 // function name = paramerter = return type
+
 const add = (a,b) => a+b;
 console.log(add(3,4));
