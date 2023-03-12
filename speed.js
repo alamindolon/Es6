@@ -1,12 +1,12 @@
 
 // ... dile array gula ke numver a convert kore.
 const number = [23,45,67,78,99];
-const numbers = [23, ...number, 74,56];
+const numbers = [23, ...number, 74,100];
 console.log(numbers);
 
 
 // first a number banay nise than max numver banaise 
-const highest = Math.max(...number);
+const highest = Math.max(...numbers);
 console.log(highest);
 
 
