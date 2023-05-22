@@ -2,8 +2,11 @@ const array = [4,5,7,8,9];
 
 // for eash & map ar same kaj but map return kore ar forEash return kore na..map array modde return kore forease sodu number return kore
 console.log('map ar result');
-const a = array.map(x => x* 2);
+const a = array.map(x => x * 2);
 console.log('A:',a);
+console.log('map ar result square **2');
+const square = array.map( x => x**2);
+console.log(square);
 
 console.log('ForEase ar result');
 const b = array.forEach(x => x*2);
@@ -17,5 +20,7 @@ const result = array.find(x => x>6 );
 console.log(result);
 
 console.log('filter ar result');
+// filter a condition deo jay but map a condition deo jay na
+
 const Filter = array.filter(x => x>6 );
 console.log(Filter);
